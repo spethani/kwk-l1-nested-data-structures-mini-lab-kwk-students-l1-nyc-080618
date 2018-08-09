@@ -8,7 +8,12 @@ ingredients = [
 
 def sandwich_request(ingredients, order) 
   # your code here!
-  order.each do |
+  is_it_there=true
+  order.each do |item|
+    ingredients.each do |array|
+      array.each do |ingredient|
+    end
+  end
 end
 
 # example city_info hash
